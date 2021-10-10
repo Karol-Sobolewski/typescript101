@@ -18,11 +18,11 @@
 
     sum('Numbers', 1, 6, 10)
 
-    const executeFunc = (func: (title: string, age: number, hobbies: string[]) => void) => {
+    const executeFunc = (func: (title: string, age: number, hobbies: string[]) => boolean) => {
         const title: string = 'Lorem Ipsum'
         func(title, 24, ['Sport', 'Movies'])
     }
-
+    //@ts-ignore
     executeFunc((title, age, hobbies) => { return true })
 
 }

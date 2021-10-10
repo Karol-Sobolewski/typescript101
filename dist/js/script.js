@@ -16,6 +16,7 @@
         const title = 'Lorem Ipsum';
         func(title, 24, ['Sport', 'Movies']);
     };
-    executeFunc((title, age, hobbies) => { return true; }); //eslint-disable-line
+    //@ts-ignore
+    executeFunc((title, age, hobbies) => { return true; });
 }
 //# sourceMappingURL=script.js.map
